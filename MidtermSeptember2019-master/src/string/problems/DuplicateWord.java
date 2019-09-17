@@ -22,11 +22,16 @@ public class DuplicateWord {
                 if(word[i].equals(word[j])){
                     count++;
                     word[j]="0";
+
                 }
         }
             if(count>1 && word[i]!="0");
             System.out.println(word[i]+"-"+count);
             count=1;
+
+            //avg length of the word
+            //int totalLength =word.length*count;
+            //System.out.println(totalLength);
 
             }
         }

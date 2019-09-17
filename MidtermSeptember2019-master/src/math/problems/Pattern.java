@@ -1,6 +1,9 @@
 package math.problems;
 
+import java.util.Scanner;
+
 public class Pattern {
+    static Scanner sc;
 
     public static void main(String[] args) {
         /* Read this numbers, find the pattern then implement the logic from this pattern.which will give you this output.
@@ -8,6 +11,13 @@ public class Pattern {
          *
          *
          */
+        int number,i;
+        sc=new Scanner(System.in);
+        System.out.println("Please enter the maximum value");
+        number=sc.nextInt();
+        for(i=number;i>=1;i--){
+            System.out.println(i+"\t");
+        }
 
     }
 }
